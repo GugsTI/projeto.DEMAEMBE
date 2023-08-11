@@ -6,14 +6,11 @@
   <nav class="navbar navbar-expand-sm navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img class="img_logo" src="glow 1 (1).png" alt="d"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Inicio</a>
-        </li>
+        <button  class="btn btn-light"> <a href="#">Inicio</a>
+        </button> 
         <li class="nav-item">
           <a class="nav-link" href="#">serviços</a>
         </li>
@@ -36,6 +33,24 @@
 </template>
 
 <style scoped>
+
+
+
+.btn{
+  width: 120px;
+height: 40px;
+flex-shrink: 0;
+
+border-radius: 10px;
+background: #D9D9D9;
+
+color: #000;
+font-family: Inter;
+font-size: 17.5px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
 .img_logo{
 height: 110px;
 
