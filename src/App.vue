@@ -3,73 +3,85 @@
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img class="img_logo" src="glow 1 (1).png" alt="d"></a>
-    
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <button  class="btn btn-light"> <a href="#">Inicio</a>
-        </button> 
-        <li class="nav-item">
-          <a class="nav-link" href="#">serviços</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">contato</a>
-        </li>    
-      </ul>
-    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
   </div>
 </nav>
+ 
+ <div class="title">
+ <h1>Bueno Cortes</h1>
+ </div>
 
-<div class="titulo">
-<h1>Os pisos mais vendidos!</h1>
 
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="l1.jpeg" alt="Los Angeles" class="d-block" style="width:30%">
+    </div>
+    <div class="carousel-item">
+      <img src="images.jpeg" alt="Chicago" class="d-block" style="width:30%">
+    </div>
+    <div class="carousel-item">
+      <img src="l3.jpeg" alt="New York" class="d-block" style="width:30%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+<div class="container-fluid mt-3">
+  <h3>Carousel Example</h3>
+  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
 </div>
 
 
-
-
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p>Footer</p>
+</div>
 </template>
 
 <style scoped>
 
 
-
-.btn{
-  width: 120px;
-height: 40px;
-flex-shrink: 0;
-
-border-radius: 10px;
-background: #D9D9D9;
-
-color: #000;
-font-family: Inter;
-font-size: 17.5px;
-font-style: normal;
-font-weight: 200;
-line-height: normal;
+.title{
+margin-left: 38%;
+margin-top: 2%;
+font-family:'Times New Roman', Times, serif;
+color: aqua;
 }
-.img_logo{
-height: 110px;
-
-  
-  
+.container-fluid{
+margin-left: 37%;
 }
 
-.navbar{
-  background: linear-gradient(180deg, #3B48BE 0%, rgba(59, 72, 190, 0.65) 97.12%, rgba(59, 72, 190, 0.00) 100%);}
 
-  .titulo{
-    color: #000;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: Inter;
-font-size: 40px;
-font-style:normal;
-font-weight: 900;
-line-height:normal;
 
-  }
+
+
 
 </style>
