@@ -71,6 +71,15 @@
 </template>
 
 <style scoped>
+.btn{
+margin-top: 20%;
+align-items: center;
+}
+
+.carousel-indicators{
+margin-bottom: 15%;
+
+}
 
 
 .title{
